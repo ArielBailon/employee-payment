@@ -1,7 +1,7 @@
 # Employee Payment
 So for this exercise, first, I defenitely had to start with the rates object so i went and created one with each day with it's start, end and rate payment, so I can identify and get from this the in between hours that the employees have worked on in order to get the according rate and therefore their salaries. For this I created a separate file called `rates.js` and export it to its use and for the main logic I created the `app.js` file.
 
-To read the txt file I made use of the default file system module that node has and made the call to the method readFile, if nothings wrong with the file, it calls toe the calculatePayment method which is the while sequence.
+To read the txt file I made use of the default file system module that node has and made the call to the method readFile, if nothings wrong with the file, it calls to the calculatePayment method which is the main sequence.
 
 Before this explanation I have to say that in order to be able to separate each employee I added a slash (/) between them in the txt file
 Next, since I created the rates object I was able to indetify that I must at least do 2 or 3 for in loops:
